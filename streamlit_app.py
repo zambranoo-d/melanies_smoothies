@@ -2,13 +2,6 @@
 import streamlit as st
 from snowflake.snowpark.functions import col
 
-helpful_links = [
-    "https://docs.streamlit.io",
-    "https://docs.snowflake.com/en/developer-guide/streamlit/about-streamlit",
-    "https://github.com/Snowflake-Labs/snowflake-demo-streamlit",
-    "https://docs.snowflake.com/en/release-notes/streamlit-in-snowflake"
-]
-
 # Write directly to the app
 st.title(":cup_with_straw: Customize your Smoothie :cup_with_straw:")
 st.write("Choose the fruits you want in your custom Smoothie!")
